@@ -16,6 +16,7 @@ export const Modelo3D = ({setSite, setView}) =>{
 
 
     useEffect(()=>{
+        console.log('pepepepe')
         const currentRef = mountRef.current
         const {clientWidth: width, clientHeight: height} = currentRef
 
