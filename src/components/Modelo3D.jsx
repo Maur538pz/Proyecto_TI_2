@@ -144,6 +144,9 @@ export const Modelo3D = ({setSite, setView}) =>{
             scene.add(groupMesh)
             funAdd()
             camera.lookAt(groupMesh.position)
+        },undefined,
+        function (error){
+            console.log(error)
         }
         )
 
