@@ -135,7 +135,7 @@ export const Modelo3D = ({setSite, setView}) =>{
 
         //CARGAR MNODELOS 3D EXPORTADOS 
         const gltfLoader = new GLTFLoader()
-        gltfLoader.load('public/peru.gltf',
+        gltfLoader.load('../../public/peru.gltf',
         (gltf)=>{
             gltf.scene.scale.set(8,8,8)
             groupMesh.add(gltf.scene)
